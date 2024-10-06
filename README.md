@@ -14,5 +14,5 @@ The secondary turorial is concerned with a short explanation of the default data
 
 ## Informations
 
-Supplement to IAWA Journal submission [TODO: INSERT DOI] by Jannik Stebani, Tim Lewandrowski, Kilian Dremel, Simon Zabler and Volker Haag
-Supplement to [`woodnet`](https://github.com/stebix/woodnet) package.
+- Supplementary to IAWA Journal submission [TODO: INSERT DOI] by Jannik Stebani, Tim Lewandrowski, Kilian Dremel, Simon Zabler and Volker Haag
+- Supplementary to [`woodnet`](https://github.com/stebix/woodnet) package
