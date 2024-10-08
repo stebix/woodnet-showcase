@@ -1,3 +1,15 @@
+mkdir data
+# wget get acer artifact data
+# wget # get pinus artifact data
+# wget # get mode artifact data
+# mv *.hdf5 data/
+# mv *.pth data/
+# install woodnet
+git clone https://github.com/stebix/woodnet
+cd woodnet
+pip install --editable .
+cd ..
+# install companion tooling
 git clone https://github.com/stebix/wn-companiontools.git
 cd wn-companiontools
 pip install --editable .

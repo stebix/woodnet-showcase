@@ -16,3 +16,13 @@ dependencies:
   - ipywidgets
   - ipympl
   - k3d
+  - scikit-learn
+  - scikit-image
+  - tensorboard
+  - seaborn
+  - rich
+  - monai
+  - pillow
+  - pytest
+  - ruamel.yaml
+  - frozendict
