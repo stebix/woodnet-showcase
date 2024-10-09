@@ -10,13 +10,19 @@ The secondary turorial is concerned with a short explanation of the default data
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stebix/woodnet-showcase/HEAD?labpath=showcase-prediction.ipynb)
 
-To ultimately run the code in the provided notebooks, please select 'Run' $\rightarrow$ 'Run All Cells' in the drop down menu bar after the notebook has opened. 
+To ultimately run the code in the provided notebooks, please select 'Run' $\rightarrow$ 'Run All Cells' in the drop down menu bar after the notebook has opened.
+
+## Binder Peculiarities
+
+Binder is donation-supported and provides free-of-charge CPU compute resources and hosting for the notebooks. Using a CPU with volumetric data visualizations and 3D ResNet can be slow.
+
 > [!TIP]
-> Binder provides free-of-charge CPU compute resources and hosting for the notebooks. Using a CPU with volumetric data visualizations and 3D ResNet can be slow.
 > **_Please_** allow **ample time** for the notebook startup process. Especially the 3D visualizations require larger resources. In the worst case (Binder under load), it may take up to 15 minutes to find a host. Just leave the tab open and come back when the site refreshes itself.
-> If teh process fails, just try again some time later.
-> If the compute resources or your patience time out, just use the Jupyter notebook as a starting point for running experiments
-> on your own premises using a faster GPU resource.
+> If the process fails, just try again some time later.
+
+If the compute resources or your patience time out, just use the Jupyter notebook as a starting point for running experiments
+on your own premises using a faster GPU resource.
+We however chose Binder as a convenient no-installation showcase outlet.
 
 ## Informations
 
