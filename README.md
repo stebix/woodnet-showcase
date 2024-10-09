@@ -17,8 +17,8 @@ To ultimately run the code in the provided notebooks, please select 'Run' $\righ
 Binder is donation-supported and provides free-of-charge CPU compute resources and hosting for the notebooks. Using a CPU with volumetric data visualizations and 3D ResNet can be slow.
 
 > [!TIP]
-> **_Please_** allow **ample time** for the notebook startup process. Especially the 3D visualizations require larger resources. In the worst case (Binder under load), it may take up to 15 minutes to find a host. Just leave the tab open and come back when the site refreshes itself.
-> If the process fails, just try again some time later.
+> **_Please_** allow **ample time** ⌛ for the notebook startup process. Especially the 3D visualizations require larger resources. In the worst case (Binder under load), it may take up to 15 minutes to find a host. Just leave the tab open and come back when the site refreshes itself.
+> If the process fails, just try again some time later. ☕⌚
 
 If the compute resources or your patience time out, just use the Jupyter notebook as a starting point for running experiments
 on your own premises using a faster GPU resource.
