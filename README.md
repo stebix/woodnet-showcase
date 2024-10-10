@@ -1,6 +1,6 @@
 # `woodnet` Showcase
 
-This repository containes additional showcase information in the form of tutorials and visualizations for our IAWA paper manuscript "Technical framework presentation of advanced volumetric sub-μ-CT imaging integrated with adaptable deep learning-based wood species classification" and the accompanying advanced computed tomography data processing and classification pipeline [`woodnet`](https://github.com/stebix/woodnet).
+This repository contains additional showcase information in the form of tutorials and visualizations for our IAWA paper manuscript "Technical framework presentation of advanced volumetric sub-μ-CT imaging integrated with adaptable deep learning-based wood species classification" and the accompanying advanced computed tomography data processing and classification pipeline [`woodnet`](https://github.com/stebix/woodnet).
 The visualizations are bundled into a Jupyter notebook that can be viewed and handled interactively. Core showcased elements are 3D volumetric visualizations that are not a good fit for paper- and PDF-based static imagery.
 To look at the generated visualizations and explantations, please launch the binder notebook direcntly in your browser via the button below:
 
@@ -14,15 +14,16 @@ To ultimately run the code in the provided notebooks, please select 'Run' $\righ
 
 ## Binder Peculiarities
 
-Binder is donation-supported and provides free-of-charge CPU compute resources and hosting for the notebooks. Using a CPU with volumetric data visualizations and 3D ResNet can be slow.
+Binder is donation-supported and provides free-of-charge CPU compute resources and hosting for the notebooks. Using a CPU with volumetric data visualizations and 3D ResNet can be slow. However, there is no current alternative for sharing prebuilt notebooks in this convenient no-installation manner,
 
 > [!TIP]
-> **_Please_** allow **ample time** ⌛ for the notebook startup process. Especially the 3D visualizations require larger resources. In the worst case (Binder under load), it may take up to 15 minutes to find a host. Just leave the tab open and come back when the site refreshes itself.
-> If the process fails, just try again some time later. ☕⌚
+> **_Please_** allow **ample time** ⌛ for the notebook startup process. Especially the 3D visualizations require larger compute and memory resources. In the worst case (Binder under load), it may take up to 20 minutes to find a suitable host machine. Just leave the tab open and come back when the site refreshes itself.
+> If the process fails, do not hesitate just try again some time later. ☕⌚ Binder load varies throughout the day.
 
+We are sorry for possible inconveniences and waiting times.
 If the compute resources or your patience time out, just use the Jupyter notebook as a starting point for running experiments
 on your own premises using a faster GPU resource.
-We however chose Binder as a convenient no-installation showcase outlet.
+We however chose Binder as a the only convenient, truly no-installation platform as our showcase outlet.
 
 ## Informations
 

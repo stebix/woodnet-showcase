@@ -1,13 +1,9 @@
 mkdir artifacts
-wget https://zenodo.org/records/13905949/files/acer-artifact.hdf5
-wget https://zenodo.org/records/13905949/files/pinus-artifact.hdf5
-wget https://zenodo.org/records/13905949/files/weights-artifact.pth
-mv *.hdf5 artifacts/
-mv *.pth artifacts/
 # install woodnet
 git clone https://github.com/stebix/woodnet
 cd woodnet
-pip install --editable .
+# risky and brittle, but hopefully speeds up binder launch
+pip install --editable . --no-deps
 cd ..
 # install companion tooling
 git clone https://github.com/stebix/wn-companiontools.git
